@@ -6,6 +6,8 @@ public class Welcome {
 		
 		//to print the information on consolde we can use
 		System.out.println("Welcome to takeo bootcamp");
+		init i = 20;
+		System.out.println(i);
 	}
 
 }
