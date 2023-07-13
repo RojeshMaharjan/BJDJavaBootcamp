@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="fragments/Guest :: header"></div>
+</head>
+
+<body>
+
+    <div th:replace="fragments/Guest ::nabar"></div>
+
+    <p th:text="${msg}"></p>
+    <div class="this-wont-center" style="display: flex; justify-content: center; align-items: center;">
+        <h3 class="text-inside-will-center" th:text="${msg}"></h3>
+    </div>
+</body>
+</html>
