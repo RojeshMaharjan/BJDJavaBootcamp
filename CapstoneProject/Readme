@@ -1,1 +1,125 @@
 
+**1. Introduction:**
+The Insurance Management System is designed to provide financial security and manage insurance-related activities on a single platform. The system will cater to two main roles: the Admin, responsible for managing policies, categories, and subcategories, and the Customer, who will purchase and manage policies. The primary objectives are to deliver a bug-free and secured application, efficiently managing customer records, policies, and buyer policies.
+
+ 
+
+**2. Stakeholders:**
+- Admin: Responsible for managing policies, categories, and subcategories.
+- Customer: Buys policies, views policy information, and applies for policies.
+
+ 
+
+**3. Functional Requirements:**
+
+ 
+
+**3.1 Admin:**
+- **User Management:**
+  - The system shall provide an interface for the Admin to view the list of registered users.
+
+- **Category Management:**
+  - The Admin shall be able to add, view, update, and delete insurance categories.
+
+- **Sub-Category Management:**
+  - The Admin shall have the capability to add, view, update, and delete sub-categories within each insurance category.
+
+- **Policy Management:**
+  - The system shall allow the Admin to add, view, update, and delete insurance policies.
+
+- **Buyer Policy Request Management:**
+  - The Admin shall be able to view, activate, and cancel buyer policy requests.
+
+ 
+
+**3.2 Customer:**
+- **Category and Sub-Category Viewing:**
+  - Customers shall be able to view the list of available insurance categories and their corresponding sub-categories.
+
+- **Policy Application:**
+  - Customers can apply for a specific policy from the available list of policies.
+
+- **Policy Management:**
+  - Customers shall be able to view the list of policies they have purchased.
+
+ 
+
+**3.3 Common Features:**
+- **User Authentication:**
+  - The system shall provide a secure login and registration process for both Admin and Customer roles.
+
+- **Profile Management:**
+  - All users in the system can manage their profiles, including updating personal information and preferences.
+
+ 
+
+**4. Non-Functional Requirements:**
+
+ 
+
+- **Security:**
+  - The system must implement robust security measures to protect sensitive user data, prevent unauthorized access, and comply with data protection regulations.
+
+ 
+
+- **Performance:**
+  - The application should be responsive and capable of handling multiple concurrent users without significant delays.
+
+ 
+
+- **Reliability:**
+  - The system should be available 24/7, with minimal downtime for maintenance and upgrades.
+
+ 
+
+- **User-Friendly Interface:**
+  - The user interface should be intuitive, easy to navigate, and visually appealing for both Admin and Customer roles.
+
+ 
+
+**5. System Integration:**
+- The system should integrate with payment gateways for secure and efficient premium payments.
+
+ 
+
+**6. Assumptions:**
+- The application will be developed for web-based access.
+- The system will store data securely in a database.
+- Users will have access to reliable internet connections.
+
+ 
+
+**7. Constraints:**
+- Development will be limited to a specific budget and timeframe.
+- The system must comply with industry-specific regulations and standards.
+
+ 
+
+**8. Change Management:**
+- A change management process will be established to handle modifications to requirements throughout the development process.
+
+ 
+
+**9. Risks:**
+- Data breaches or security vulnerabilities may pose a risk to user data.
+- Compatibility issues with different browsers and devices may impact user experience.
+
+ 
+
+**10. Testing:**
+- Comprehensive testing, including unit testing, integration testing, and user acceptance testing, will be conducted to ensure the system's quality and reliability.
+
+ 
+
+**11. Documentation:**
+- Detailed documentation of the system's design, architecture, and functionalities will be provided for future maintenance and enhancements.
+
+ 
+
+**12. Project Timeline:**
+- A project timeline will be established with specific milestones to ensure timely delivery.
+
+ 
+
+**Conclusion:**
+The Insurance Management System aims to provide a secure, efficient, and user-friendly platform for both Admin and Customer roles. By fulfilling the stated requirements, the system will enhance the management and accessibility of insurance policies, contributing to a reliable and effective insurance management process.
