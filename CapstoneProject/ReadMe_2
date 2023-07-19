@@ -1,0 +1,44 @@
+Module Requirement Gathering
+
+Day-1: Module -Requirement Gathering :
+Scope of the Insurance Management System:
+The insurance management system aims to provide a comprehensive platform for managing various aspects of an insurance company's operations. The system will be built as a set of microservices using Java, Spring MVC, Spring Microservices, and Spring Cloud. It will be deployed on AWS EC2 instances, and the API endpoints will be documented using Swagger.
+The main modules of the system include:
+Policy Management: Create, update, and retrieve insurance policies.
+Claims Processing: Handle insurance claims, process claims, and track their status.
+User Management: Manage user accounts, roles, and permissions.
+Reporting and Analytics: Generate reports and provide analytics on insurance policies and claims.
+Security: Implement authentication and authorization mechanisms to ensure data privacy and system security.
+Requirements Gathering:
+Policy Management:
+The system should allow the creation of new insurance policies with unique policy numbers, policy holder names, and premium amounts.
+Policies should have an effective start date and an optional end date.
+Users should be able to update policy details, such as the policy holder's name and premium amount.
+The system should support retrieving policy details by policy ID and listing all existing policies.
+Claims Processing:
+Users should be able to create new insurance claims associated with specific policies.
+Claims should have a unique claim number, a description of the claim, and the date of the incident.
+The system should allow processing of claims, including setting the claim status (e.g., open, in progress, clo
+sed) and adding relevant comments.
+Users should be able to view and update the status of existing claims.
+User Management:
+The system should support user registration, allowing new users to sign up with their details.
+Users should be able to log in with their credentials and receive an access token for authentication.
+The system should have multiple user roles (e.g., admin, manager, agent) with different permissions for accessing and modifying data.
+
+
+Reporting and Analytics:
+The system should generate various reports, such as a list of all policies, claims by status, and policy statistics.
+Reports should be accessible to authorized users in a downloadable format (e.g., PDF, CSV).
+The system should provide analytics on policy trends, claim patterns, and other relevant insights.
+Security:
+User passwords should be securely hashed and stored in the database.
+API endpoints should be secured with JWT-based authentication to prevent unauthorized access.
+Users should be authorized based on their roles to access specific functionalities.
+Swagger Documentation:
+The API endpoints for each microservice should be thoroughly documented using Swagger annotations.
+The Swagger documentation should include detailed information about request/response data and error handling.
+Deployment on AWS EC2: or Deployment on Docker or Kubernetes
+The microservices should be deployed on separate AWS EC2 instances to ensure scalability and fault tolerance.
+Load balancers should be set up to distribute incoming traffic among instances.
+
